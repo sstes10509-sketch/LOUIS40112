@@ -1,74 +1,80 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的個人網站</title>
+    <title>Ashley's Personal Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #E0F7FA;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 30px auto;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 20px;
-        }
-        h1, h2 {
             color: #333;
         }
-        p {
-            color: #555;
-            font-size: 1.1em;
-            line-height: 1.6;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+        header {
             text-align: center;
+            padding: 50px 0;
+            background-color: #00BCD4;
+            color: white;
+        }
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 18px;
+            margin: 10px 0 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 30px 0;
+        }
+        .container img {
+            width: 200px;
+            border-radius: 50%;
+            border: 5px solid #00BCD4;
+        }
+        .pdf-links {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .pdf-links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #00BCD4;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .pdf-links a:hover {
+            background-color: #008C9E;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>歡迎來到我的個人網站</h1>
-    </header>
+<header>
+    <h1>Ashley</h1>
+    <p>Vlogging About Beauty, Fashion, Life Hacks & My Life!</p>
+</header>
 
-    <div class="container">
-        <!-- 替換為你的照片檔案 -->
-        <img src="profile.jpg" alt="我的照片" class="profile-img">
-        <h2>你好，我是 [你的名字]</h2>
-        <p>我是台灣的一名檢察官，致力於維護社會正義，保障法律的公正執行。</p>
-        <p>我在檢察工作中專注於刑事案件，並積極參與偵查及公訴工作。我對法律的熱情讓我不斷提升自己，力求在職業生涯中為社會做出更多貢獻。</p>
-        <p>這是我的個人網站，希望能讓你更多了解我和我的專業背景。</p>
-    </div>
+<div class="container">
+    <img src="myphoto.jpg" alt="Ashley Photo">
+    <p>Welcome to my personal website! Here, you can explore my works and interests.</p>
+</div>
 
-    <footer>
-        <p>&copy; 2025 [你的名字]. All Rights Reserved.</p>
-    </footer>
+<div class="pdf-links">
+    <h2>My Works</h2>
+    <a href="work1.pdf" target="_blank">PDF Work 1</a>
+    <a href="work2.pdf" target="_blank">PDF Work 2</a>
+    <a href="work3.pdf" target="_blank">PDF Work 3</a>
+</div>
 
 </body>
 </html>
